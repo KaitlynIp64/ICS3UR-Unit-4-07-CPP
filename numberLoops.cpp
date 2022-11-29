@@ -9,7 +9,7 @@
 
 int main() {
     // process and output
-    std::cout << "This program prints all the numbers between 1000-2000.\n";
+    std::cout << "This program prints all numbers from 1000 to 2000.\n";
     std::cout << std::endl;
     for (int loopCounter = 1000; loopCounter <= 2000; loopCounter++) {
         if (loopCounter % 5 == 0 && loopCounter != 1000) {
